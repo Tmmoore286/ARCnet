@@ -125,12 +125,11 @@ See [related-work/](related-work/) for detailed literature positioning.
 
 | Document | Purpose |
 |----------|---------|
-| [Executive-Summary.md](Executive-Summary.md) | High-level overview for stakeholders |
-| [Problem-Statement-and-Mission-Impact.md](Problem-Statement-and-Mission-Impact.md) | Motivation and objectives |
+| [PROPOSAL.md](PROPOSAL.md) | Program proposal (problem, use case, metrics, risks) |
 | [Technical-Approach.md](Technical-Approach.md) | System design and methodology |
-| [Agent-Selection-Formulas.md](Agent-Selection-Formulas.md) | Mathematical specification |
-| [Validation-and-Metrics.md](Validation-and-Metrics.md) | Evaluation framework |
-| [Appendices/](Appendices/) | Detailed rubrics, ML specs, ethics |
+| [Agent-Selection-Formulas.md](Agent-Selection-Formulas.md) | Mathematical specification with examples |
+| [LITERATURE.md](LITERATURE.md) | Literature review and positioning |
+| [Appendices/](Appendices/) | Detailed rubrics, ML specs, scenarios |
 
 ---
 

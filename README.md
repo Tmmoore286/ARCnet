@@ -450,38 +450,16 @@ See [APPLICATIONS.md](APPLICATIONS.md) for detailed industry configurations.
 
 ## Research Documentation
 
-The `/Research` folder contains detailed academic documentation:
+The `/Research` folder contains academic documentation:
 
 | Document | Description |
 |----------|-------------|
 | [RESEARCH-OVERVIEW.md](Research/RESEARCH-OVERVIEW.md) | Research questions, hypotheses, methodology |
-| [Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Complete mathematical specification with worked examples |
-| [Executive-Summary.md](Research/Executive-Summary.md) | High-level research overview |
-| [Technical-Approach.md](Research/Technical-Approach.md) | Detailed methodology |
-| [Validation-and-Metrics.md](Research/Validation-and-Metrics.md) | Evaluation methodology |
-
-### Literature Positioning
-
-| Document | Description |
-|----------|-------------|
-| [related-work/mixture-of-experts.md](Research/related-work/mixture-of-experts.md) | Comparison to neural MoE architectures |
-| [related-work/multi-agent-systems.md](Research/related-work/multi-agent-systems.md) | Position vs AutoGen, CrewAI, LangGraph |
-| [related-work/human-ai-teaming.md](Research/related-work/human-ai-teaming.md) | Adjustable autonomy literature |
-| [related-work/explainable-ai.md](Research/related-work/explainable-ai.md) | XAI for multi-agent workflows |
-
-### Papers
-
-| Document | Description |
-|----------|-------------|
-| [papers/Info-paper.pdf](Research/papers/Info-paper.pdf) | Formal information paper with mathematical enclosures |
-
-### Appendices
-
-| Document | Description |
-|----------|-------------|
-| [Appendix-C-Metrics-and-Rubrics.md](Research/Appendices/Appendix-C-Metrics-and-Rubrics.md) | Detailed evaluation criteria |
-| [Appendix-D-ML-Implementation.md](Research/Appendices/Appendix-D-ML-Implementation-and-Maintenance-Forecasting.md) | ML model specifications |
-| [Appendix-E-Publication-and-Ethics.md](Research/Appendices/Appendix-E-Publication-and-Ethics.md) | Publication targets and ethical considerations |
+| [Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Mathematical specification with worked examples |
+| [LITERATURE.md](Research/LITERATURE.md) | Literature review (MoE, MAS, HAT, XAI) |
+| [PROPOSAL.md](Research/PROPOSAL.md) | Program proposal (problem, use case, metrics, risks) |
+| [Technical-Approach.md](Research/Technical-Approach.md) | System design methodology |
+| [papers/Info-paper.pdf](Research/papers/Info-paper.pdf) | Formal information paper with enclosures |
 
 ---
 
@@ -670,8 +648,8 @@ GitHub: [@Tmmoore286](https://github.com/Tmmoore286)
 |----------|-------------|
 | [Research/RESEARCH-OVERVIEW.md](Research/RESEARCH-OVERVIEW.md) | Research questions, hypotheses, methodology |
 | [Research/Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Mathematical specification with worked examples |
-| [Research/related-work/](Research/related-work/) | Literature positioning (MoE, MAS, HAT, XAI) |
-| [Research/papers/Info-paper.pdf](Research/papers/Info-paper.pdf) | Formal information paper with enclosures |
+| [Research/LITERATURE.md](Research/LITERATURE.md) | Literature review (MoE, MAS, HAT, XAI) |
+| [Research/PROPOSAL.md](Research/PROPOSAL.md) | Program proposal with metrics |
 
 ### Implementation
 | Document | Description |
