@@ -53,6 +53,27 @@ $$A_{hybrid} = A_{org} \cup \underset{A \subseteq \mathcal{C}'}{\arg\max} \left[
 
 Where $K' = K_{total} - |A_{org}|$ and $\mathcal{C}' = \mathcal{C} \setminus A_{org}$.
 
+### Agent Selection Flow
+
+```mermaid
+flowchart LR
+  M["Mission Embedding"] --> S1["Compute Similarity"]
+  S1 --> S2["Composite Score S(i)"]
+  S2 --> F["Filter by τ_sim, τ_avail"]
+  F --> SEL{Mode}
+  SEL -->|Mesh| AM["Mesh Selection:<br/>MustInclude ∪ argmax with λ penalty"]
+  SEL -->|Hybrid| AH["Hybrid Selection:<br/>A_org ∪ Mesh remainder"]
+
+  subgraph Constraints
+    K1["Capacity caps"]
+    K2["Coverage rules"]
+    K3["Diversity penalty λ"]
+  end
+
+  Constraints -. enforce .-> AM
+  Constraints -. enforce .-> AH
+```
+
 > **See:** [Research/Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) for complete mathematical specification with worked examples.
 
 ---
@@ -208,6 +229,43 @@ Modern organizations struggle with fragmented data across financial systems, mai
                     │  └─────────────────────────────────────────────────────────────────┘  │
                     └───────────────────────────────────────────────────────────────────────┘
 ```
+
+### Decision Pipeline with HITL Gates
+
+```mermaid
+flowchart LR
+    subgraph "Gate A: Problem Framing"
+        A1[Mission Input] --> A2[Scribe]
+        A2 --> A3[Coordinator]
+    end
+
+    subgraph "Specialist Analysis"
+        A3 --> B1[Agent Selection]
+        B1 --> B2[Specialists in Parallel]
+    end
+
+    subgraph "Gate B: Integration"
+        B2 --> C1[Integrator]
+        C1 --> C2[Evaluator]
+    end
+
+    subgraph "Gate C: COA Tournament"
+        C2 -->|Complex| D1[COA Generator]
+        D1 --> D2[Rank & Score]
+    end
+
+    subgraph "Gate D: Tasking"
+        C2 -->|Simple| E1[Proposed Plan]
+        D2 --> E1
+        E1 --> E2[Approval]
+        E2 -->|Approve| E3[Tasking/Orders]
+        E2 -->|Reject| A3
+    end
+
+    style E2 fill:#fff3cd,stroke:#c69500
+```
+
+> **Additional diagrams:** See [Research/Diagrams/](Research/Diagrams/) for Mermaid sources and rendered PNGs.
 
 ---
 
