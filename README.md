@@ -1,3 +1,8 @@
+![Research](https://img.shields.io/badge/type-research-blue)
+![Status](https://img.shields.io/badge/status-active%20development-green)
+![AI](https://img.shields.io/badge/AI-multi--agent%20systems-purple)
+![ML](https://img.shields.io/badge/ML-mixture%20of%20experts-orange)
+
 # ARCnet
 
 **Adaptive Reasoning and Collaboration Network**
