@@ -454,12 +454,26 @@ The `/Research` folder contains detailed academic documentation:
 
 | Document | Description |
 |----------|-------------|
+| [RESEARCH-OVERVIEW.md](Research/RESEARCH-OVERVIEW.md) | Research questions, hypotheses, methodology |
+| [Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Complete mathematical specification with worked examples |
 | [Executive-Summary.md](Research/Executive-Summary.md) | High-level research overview |
-| [Problem-Statement-and-Mission-Impact.md](Research/Problem-Statement-and-Mission-Impact.md) | Research motivation and objectives |
 | [Technical-Approach.md](Research/Technical-Approach.md) | Detailed methodology |
-| [Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Complete mathematical specification |
 | [Validation-and-Metrics.md](Research/Validation-and-Metrics.md) | Evaluation methodology |
-| [Data-Access-Plan.md](Research/Data-Access-Plan.md) | Data requirements and sources |
+
+### Literature Positioning
+
+| Document | Description |
+|----------|-------------|
+| [related-work/mixture-of-experts.md](Research/related-work/mixture-of-experts.md) | Comparison to neural MoE architectures |
+| [related-work/multi-agent-systems.md](Research/related-work/multi-agent-systems.md) | Position vs AutoGen, CrewAI, LangGraph |
+| [related-work/human-ai-teaming.md](Research/related-work/human-ai-teaming.md) | Adjustable autonomy literature |
+| [related-work/explainable-ai.md](Research/related-work/explainable-ai.md) | XAI for multi-agent workflows |
+
+### Papers
+
+| Document | Description |
+|----------|-------------|
+| [papers/Info-paper.pdf](Research/papers/Info-paper.pdf) | Formal information paper with mathematical enclosures |
 
 ### Appendices
 
@@ -654,10 +668,10 @@ GitHub: [@Tmmoore286](https://github.com/Tmmoore286)
 ### Research
 | Document | Description |
 |----------|-------------|
-| [Research/](Research/) | Academic research documentation |
-| [Research/Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Mathematical specification of MoE routing |
-| [Research/Technical-Approach.md](Research/Technical-Approach.md) | Detailed methodology |
-| [Info-paper.pdf](Info-paper.pdf) | Formal information paper with enclosures |
+| [Research/RESEARCH-OVERVIEW.md](Research/RESEARCH-OVERVIEW.md) | Research questions, hypotheses, methodology |
+| [Research/Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Mathematical specification with worked examples |
+| [Research/related-work/](Research/related-work/) | Literature positioning (MoE, MAS, HAT, XAI) |
+| [Research/papers/Info-paper.pdf](Research/papers/Info-paper.pdf) | Formal information paper with enclosures |
 
 ### Implementation
 | Document | Description |
