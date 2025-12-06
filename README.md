@@ -114,22 +114,36 @@ This approach reduces LLM calls by 40-60% compared to fixed full-staff activatio
 
 ---
 
-## Abstract
+## Quick Navigation
+
+| Section | Description |
+|---------|-------------|
+| [Research Contribution](#research-contribution-semantic-mixture-of-experts-agent-routing) | Mathematical formulation of semantic MoE routing |
+| [Key Innovations](#key-innovations) | Summary of novel contributions |
+| [Comparison to Related Work](#comparison-to-related-work) | Positioning against existing frameworks |
+| [System Overview](#system-overview) | What ARCnet does and how |
+| [Architecture](#architecture) | Technical architecture diagrams |
+| [Research Documentation](#research-documentation) | Papers, formulas, and proposals |
+| [Implementation Details](#implementation-details) | Technical stack, setup, repository structure |
+
+---
+
+## System Overview
 
 Modern organizations struggle with fragmented data across financial systems, maintenance records, operational schedules, and asset inventories. Decision-makers receive delayed, incomplete pictures of organizational readiness—often discovering problems at execution time rather than during planning.
 
 **ARCnet** addresses this by creating an **Operational Digital Twin**: a unified system that ingests disparate data sources, predicts future states using machine learning, surfaces risks proactively, and provides AI agents that reason transparently about complex decisions.
 
-The system implements:
+### Core Capabilities
 
-- **Automated ETL pipelines** that normalize heterogeneous data (Excel, CSV, API exports) into a unified analytical warehouse
-- **Predictive ML models** for maintenance forecasting, budget burn-rate analysis, and operational risk scoring
-- **Multi-agent orchestration** where specialized AI agents collaborate through structured workflows with human oversight
-- **Natural language interfaces** for querying complex operational data
-- **Computer vision modules** for document OCR and visual inspection
-- **Reinforcement learning optimizers** for resource allocation and scheduling
-
-The result is a system that transforms reactive decision-making into predictive, evidence-based operations management.
+| Capability | Description |
+|------------|-------------|
+| **Semantic Agent Orchestration** | Multi-agent system with MoE-style routing based on mission-doctrine similarity |
+| **Predictive ML Models** | XGBoost/SARIMAX for maintenance forecasting, budget burn-rate, risk scoring |
+| **Natural Language Interface** | Text-to-SQL for querying operational data |
+| **Computer Vision** | Document OCR, visual inspection, dashboard parsing |
+| **RL Optimization** | Policy gradient methods for resource allocation and scheduling |
+| **Human Oversight** | Configurable HITL/HOTL/AUTO gates with checkpoint auditability |
 
 ---
 
@@ -434,7 +448,32 @@ See [APPLICATIONS.md](APPLICATIONS.md) for detailed industry configurations.
 
 ---
 
-## Technical Stack
+## Research Documentation
+
+The `/Research` folder contains detailed academic documentation:
+
+| Document | Description |
+|----------|-------------|
+| [Executive-Summary.md](Research/Executive-Summary.md) | High-level research overview |
+| [Problem-Statement-and-Mission-Impact.md](Research/Problem-Statement-and-Mission-Impact.md) | Research motivation and objectives |
+| [Technical-Approach.md](Research/Technical-Approach.md) | Detailed methodology |
+| [Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Complete mathematical specification |
+| [Validation-and-Metrics.md](Research/Validation-and-Metrics.md) | Evaluation methodology |
+| [Data-Access-Plan.md](Research/Data-Access-Plan.md) | Data requirements and sources |
+
+### Appendices
+
+| Document | Description |
+|----------|-------------|
+| [Appendix-C-Metrics-and-Rubrics.md](Research/Appendices/Appendix-C-Metrics-and-Rubrics.md) | Detailed evaluation criteria |
+| [Appendix-D-ML-Implementation.md](Research/Appendices/Appendix-D-ML-Implementation-and-Maintenance-Forecasting.md) | ML model specifications |
+| [Appendix-E-Publication-and-Ethics.md](Research/Appendices/Appendix-E-Publication-and-Ethics.md) | Publication targets and ethical considerations |
+
+---
+
+## Implementation Details
+
+### Technical Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -612,10 +651,18 @@ GitHub: [@Tmmoore286](https://github.com/Tmmoore286)
 
 ## Documentation Index
 
+### Research
 | Document | Description |
 |----------|-------------|
-| [APPLICATIONS.md](APPLICATIONS.md) | Industry-specific configurations and use cases |
-| [ARCHITECTURE.md](docs/architecture/ARCHITECTURE.md) | Detailed system design |
-| [Canonical-OVERVIEW.md](Canonical-OVERVIEW.md) | Product specification |
-| [CODEX.md](CODEX.md) | Technical implementation guide |
+| [Research/](Research/) | Academic research documentation |
+| [Research/Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) | Mathematical specification of MoE routing |
+| [Research/Technical-Approach.md](Research/Technical-Approach.md) | Detailed methodology |
+| [Info-paper.pdf](Info-paper.pdf) | Formal information paper with enclosures |
+
+### Implementation
+| Document | Description |
+|----------|-------------|
 | [AGENTS.md](AGENTS.md) | Agent development patterns |
+| [CODEX.md](CODEX.md) | Technical implementation guide |
+| [Canonical-OVERVIEW.md](Canonical-OVERVIEW.md) | Product specification |
+| [APPLICATIONS.md](APPLICATIONS.md) | Industry-specific configurations |
