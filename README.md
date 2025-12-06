@@ -11,6 +11,52 @@ A predictive operations intelligence platform that integrates siloed data source
 
 ---
 
+## Research Contribution: Semantic Mixture-of-Experts Agent Routing
+
+ARCnet introduces a **semantic MoE architecture for multi-agent orchestration** where expert selection is governed by embedding-based similarity, policy constraints, and diversity optimization—rather than fixed routing or expensive LLM-based selection.
+
+### Agent Scoring Function
+
+Each agent's fitness for a mission is computed as a weighted composite:
+
+$$S(i) = w_{sim} \cos(\mathbf{v}_m, \mathbf{v}_i) + w_{chain} \text{Chain}(i) + w_{policy} \text{Coverage}(i) + w_{ready} \text{Avail}(i) - w_{load} \text{Load}(i)$$
+
+Where:
+- $\mathbf{v}_m$ = mission/request embedding vector
+- $\mathbf{v}_i$ = agent's doctrine centroid (embedded from MOS-scoped T&R tasks, METL, and guidance)
+- $\cos(\cdot, \cdot)$ = cosine similarity measuring semantic relevance
+- $\text{Chain}(i)$, $\text{Coverage}(i)$, $\text{Avail}(i)$, $\text{Load}(i)$ = governance and operational factors
+
+### Candidate Pool Formation
+
+Agents must pass similarity and availability thresholds to enter the candidate pool:
+
+$$\mathcal{C} = \{ i \in \mathcal{A} : \cos(\mathbf{v}_m, \mathbf{v}_i) \geq \tau_{sim}, \text{Avail}(i) \geq \tau_{avail} \}$$
+
+### Diversity-Penalized Selection (Mesh Mode)
+
+The system selects agents by maximizing total score while penalizing redundant selections:
+
+$$A_{mesh} = M \cup \underset{A \subseteq \mathcal{C} \setminus M}{\arg\max} \left[ \sum_{i \in A} S(i) - \lambda \sum_{\substack{i < j \\ i,j \in A}} \cos(\mathbf{v}_i, \mathbf{v}_j) \right]$$
+
+Subject to capacity and coverage constraints:
+
+$$|A| \leq K_{total} - |M|, \quad |A_g| \leq K_g - |M_g| \; (\forall g), \quad \text{required-shop coverage satisfied}$$
+
+This yields a **small, relevant, diverse team** by explicitly discouraging agents that are too similar to each other.
+
+### Hybrid Mode
+
+Combines deterministic organizational coverage with mesh-based specialist augmentation:
+
+$$A_{hybrid} = A_{org} \cup \underset{A \subseteq \mathcal{C}'}{\arg\max} \left[ \sum_{i \in A} S(i) - \lambda \sum_{\substack{i < j \\ i,j \in A}} \cos(\mathbf{v}_i, \mathbf{v}_j) \right]$$
+
+Where $K' = K_{total} - |A_{org}|$ and $\mathcal{C}' = \mathcal{C} \setminus A_{org}$.
+
+> **See:** [Research/Agent-Selection-Formulas.md](Research/Agent-Selection-Formulas.md) for complete mathematical specification with worked examples.
+
+---
+
 ## Abstract
 
 Modern organizations struggle with fragmented data across financial systems, maintenance records, operational schedules, and asset inventories. Decision-makers receive delayed, incomplete pictures of organizational readiness—often discovering problems at execution time rather than during planning.
