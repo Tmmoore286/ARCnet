@@ -57,6 +57,19 @@ Where $K' = K_{total} - |A_{org}|$ and $\mathcal{C}' = \mathcal{C} \setminus A_{
 
 ---
 
+## Key Innovations
+
+| Innovation | Description | Research Relevance |
+|------------|-------------|-------------------|
+| **Semantic Agent Routing** | Embedding-based expert activation using cosine similarity between mission vector and agent doctrine centroids | Novel application of MoE principles to organizational decision systems; extends sparse gating to human-interpretable domains |
+| **Diversity-Penalized Selection** | Explicit λ-weighted penalty discouraging redundant agent activation | Addresses coverage vs. efficiency tradeoff absent in standard MoE architectures |
+| **Policy-Constrained Optimization** | Governance factors (chain-of-command, coverage requirements, workload) integrated into scoring function | Bridges AI systems research with real-world deployment constraints in human-AI teaming |
+| **Three Computational Pathways** | Org (deterministic), Mesh (similarity-gated), Hybrid (combined) modes | Flexible architecture enabling controlled experiments on routing strategies |
+| **Checkpoint-Based Auditability** | Evidence-linked reasoning with HITL gates aligned to Military Decision-Making Process phases | Explainable AI for high-stakes domains; supports trust calibration research |
+| **MOS-Scoped Doctrine Seeding** | Agents receive domain knowledge via embedding similarity to T&R tasks and METL | Novel approach to expert knowledge injection without fine-tuning |
+
+---
+
 ## Abstract
 
 Modern organizations struggle with fragmented data across financial systems, maintenance records, operational schedules, and asset inventories. Decision-makers receive delayed, incomplete pictures of organizational readiness—often discovering problems at execution time rather than during planning.
