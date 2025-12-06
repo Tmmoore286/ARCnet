@@ -70,6 +70,28 @@ Where $K' = K_{total} - |A_{org}|$ and $\mathcal{C}' = \mathcal{C} \setminus A_{
 
 ---
 
+## Comparison to Related Work
+
+| Aspect | ARCnet | Standard MoE (Mixtral, GPT-4) | LangChain/LangGraph | AutoGen/CrewAI |
+|--------|--------|-------------------------------|---------------------|----------------|
+| **Routing Mechanism** | Semantic similarity + policy constraints | Learned gating network (neural) | Hardcoded or LLM-selected | LLM-based delegation |
+| **Diversity Control** | Explicit redundancy penalty (λ) | Implicit via training loss | None | None |
+| **Expert Granularity** | Organizational roles (human-interpretable) | Neural network sublayers | Tool/agent definitions | Agent personas |
+| **Governance Integration** | First-class (chain-of-command, coverage, workload) | N/A | Manual implementation | Manual implementation |
+| **Human Oversight** | Configurable HITL/HOTL/AUTO gates per stage | N/A | Optional callbacks | Optional human-in-loop |
+| **Auditability** | Checkpoint ledger with evidence citations | Attention weights (limited) | Trace logging | Conversation history |
+| **Domain Adaptation** | Configuration-driven (schema mapping) | Requires retraining/fine-tuning | Prompt engineering | Prompt engineering |
+
+### Key Differentiators
+
+1. **Mathematical Rigor**: Unlike prompt-based agent frameworks, ARCnet's routing is governed by explicit optimization with provable properties (diversity penalty, capacity constraints).
+
+2. **Organizational Grounding**: Agents map to real organizational structures (G-shops, billets, MOS codes), enabling direct comparison between AI-assisted and traditional staff workflows.
+
+3. **Governance by Design**: Policy constraints aren't afterthoughts—they're integrated into the selection objective function, ensuring compliance without post-hoc filtering.
+
+---
+
 ## Abstract
 
 Modern organizations struggle with fragmented data across financial systems, maintenance records, operational schedules, and asset inventories. Decision-makers receive delayed, incomplete pictures of organizational readiness—often discovering problems at execution time rather than during planning.
