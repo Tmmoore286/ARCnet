@@ -23,6 +23,17 @@ public protocol DataGateway: Sendable {
 
     /// Get maintenance history for forecasting
     func maintenanceHistory(for unitId: String, days: Int) async throws -> [MaintenanceSnapshot]
+
+    // MARK: - Convenience methods (non-throwing)
+
+    /// Get current readiness (returns nil on error)
+    func readiness(for unitId: String) async -> ReadinessSnapshot?
+
+    /// Get current funds (returns nil on error)
+    func funds(for unitId: String) async -> FundsSnapshot?
+
+    /// Get current maintenance (returns nil on error)
+    func maintenance(for unitId: String) async -> MaintenanceSnapshot?
 }
 
 // MARK: - Gateway Errors

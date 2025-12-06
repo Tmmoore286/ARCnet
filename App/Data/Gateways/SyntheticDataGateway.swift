@@ -35,6 +35,20 @@ public struct SyntheticDataGateway: DataGateway {
     public func maintenanceHistory(for unitId: String, days: Int) async throws -> [MaintenanceSnapshot] {
         try await feedRepository.loadMaintenanceHistory(forUnit: unitId, limit: days)
     }
+
+    // MARK: - Convenience Methods
+
+    public func readiness(for unitId: String) async -> ReadinessSnapshot? {
+        try? await readinessSnapshot(for: unitId)
+    }
+
+    public func funds(for unitId: String) async -> FundsSnapshot? {
+        try? await fundsSnapshot(for: unitId)
+    }
+
+    public func maintenance(for unitId: String) async -> MaintenanceSnapshot? {
+        try? await maintenanceSnapshot(for: unitId)
+    }
 }
 
 // MARK: - Synthetic Data Generator

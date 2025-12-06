@@ -176,6 +176,20 @@ public actor InMemoryFeedRepository: FeedRepository {
         history.append(snapshot)
         maintenanceSnapshots[snapshot.unitId] = history
     }
+
+    // MARK: - Convenience Methods
+
+    public func getLatestReadiness(for unitId: String) async -> ReadinessSnapshot? {
+        readinessSnapshots[unitId]?.last
+    }
+
+    public func getLatestFunds(for unitId: String) async -> FundsSnapshot? {
+        fundsSnapshots[unitId]?.last
+    }
+
+    public func getLatestMaintenance(for unitId: String) async -> MaintenanceSnapshot? {
+        maintenanceSnapshots[unitId]?.last
+    }
 }
 
 public actor InMemoryGatePolicyRepository: GatePolicyRepository {
@@ -195,5 +209,9 @@ public actor InMemoryGatePolicyRepository: GatePolicyRepository {
         policy.gates.first { gate in
             gate.phase.split(separator: "|").map(String.init).contains(phase)
         }
+    }
+
+    public func getPolicy() async -> GatePolicy {
+        policy
     }
 }

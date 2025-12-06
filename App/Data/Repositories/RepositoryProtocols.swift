@@ -44,12 +44,20 @@ public protocol FeedRepository: Sendable {
     func loadMaintenance(forUnit unitId: String) async throws -> MaintenanceSnapshot?
     func loadMaintenanceHistory(forUnit unitId: String, limit: Int) async throws -> [MaintenanceSnapshot]
     func saveFeed(_ snapshot: MaintenanceSnapshot) async throws
+
+    // Convenience methods for latest snapshots
+    func getLatestReadiness(for unitId: String) async -> ReadinessSnapshot?
+    func getLatestFunds(for unitId: String) async -> FundsSnapshot?
+    func getLatestMaintenance(for unitId: String) async -> MaintenanceSnapshot?
 }
 
 public protocol GatePolicyRepository: Sendable {
     func loadPolicy() async throws -> GatePolicy
     func savePolicy(_ policy: GatePolicy) async throws
     func gateForPhase(_ phase: String) async throws -> Gate?
+
+    // Convenience method that doesn't throw
+    func getPolicy() async -> GatePolicy
 }
 
 // MARK: - Repository Errors
