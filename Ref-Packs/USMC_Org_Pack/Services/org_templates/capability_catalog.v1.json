@@ -1,0 +1,113 @@
+[
+  {
+    "id": "intel.fusion.v1",
+    "shop": "S2",
+    "description": "Fuse threat picture; update CCIR",
+    "mosSupports": ["0202", "0231"],
+    "inputs": ["MissionContext", "intel.slices"],
+    "outputs": ["summary", "threats[]", "ccir[]", "assumptions[]", "risks[]", "evidence[]"],
+    "mcppPhase": "problem_framing",
+    "defaultAutonomy": "HITL",
+    "gate": "none"
+  },
+  {
+    "id": "intel.collections.v1",
+    "shop": "S2",
+    "description": "Summarize collections and ISR tasking",
+    "mosSupports": ["0231", "0261", "0241", "0211"],
+    "inputs": ["MissionContext"],
+    "outputs": ["collection_plan", "evidence[]"],
+    "mcppPhase": "problem_framing",
+    "defaultAutonomy": "HITL",
+    "gate": "none"
+  },
+  {
+    "id": "ops.coa.gen.v1",
+    "shop": "S3",
+    "description": "Generate 2–3 COAs",
+    "mosSupports": ["0302", "0505"],
+    "inputs": ["MissionContext", "sustainment.posture", "comms.posture"],
+    "outputs": ["coas[]", "comparison_axes[]"],
+    "mcppPhase": "coa_dev",
+    "defaultAutonomy": "HOTL",
+    "gate": "none"
+  },
+  {
+    "id": "fires.deconflict.v1",
+    "shop": "S3",
+    "description": "Deconflict fires and effects",
+    "mosSupports": ["0861", "0802"],
+    "inputs": ["coas[]"],
+    "outputs": ["effects_matrix", "deconflict_notes"],
+    "mcppPhase": "wargame",
+    "defaultAutonomy": "HOTL",
+    "gate": "none"
+  },
+  {
+    "id": "sustainment.estimate.v1",
+    "shop": "S4",
+    "description": "Estimate sustainment feasibility and risks",
+    "mosSupports": ["0402"],
+    "inputs": ["MissionContext", "readiness.slice", "maintenance.slice", "supply.slice"],
+    "outputs": ["summary", "limiting_factors[]", "resource_deltas[]", "risks[]", "evidence[]"],
+    "mcppPhase": "coa_dev",
+    "defaultAutonomy": "HITL",
+    "gate": "none"
+  },
+  {
+    "id": "maintenance.forecast.v1",
+    "shop": "S4",
+    "description": "Forecast maintenance constraints",
+    "mosSupports": ["0411"],
+    "inputs": ["maintenance.slice"],
+    "outputs": ["forecast", "constraints[]"],
+    "mcppPhase": "problem_framing",
+    "defaultAutonomy": "HOTL",
+    "gate": "none"
+  },
+  {
+    "id": "supply.posture.v1",
+    "shop": "S4",
+    "description": "Summarize supply posture and shortages",
+    "mosSupports": ["3043"],
+    "inputs": ["supply.slice"],
+    "outputs": ["posture", "shortages[]"],
+    "mcppPhase": "problem_framing",
+    "defaultAutonomy": "HOTL",
+    "gate": "none"
+  },
+  {
+    "id": "distro.plan.v1",
+    "shop": "S4",
+    "description": "Outline distribution and embark plan",
+    "mosSupports": ["3112", "0431"],
+    "inputs": ["routes", "assets"],
+    "outputs": ["distro_plan"],
+    "mcppPhase": "orders",
+    "defaultAutonomy": "HOTL",
+    "gate": "none"
+  },
+  {
+    "id": "comms.posture.v1",
+    "shop": "S6",
+    "description": "Summarize C2 posture",
+    "mosSupports": ["0602", "0630", "0670"],
+    "inputs": ["services", "nodes"],
+    "outputs": ["posture", "risks[]"],
+    "mcppPhase": "problem_framing",
+    "defaultAutonomy": "HITL",
+    "gate": "none"
+  },
+  {
+    "id": "netops.risk.v1",
+    "shop": "S6",
+    "description": "Assess network risks and hardening",
+    "mosSupports": ["0630", "0670"],
+    "inputs": ["network.health"],
+    "outputs": ["risks[]", "hardening[]"],
+    "mcppPhase": "comparison",
+    "defaultAutonomy": "HOTL",
+    "gate": "none"
+  }
+]
+

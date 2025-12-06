@@ -1,0 +1,122 @@
+UNCLASSIFIED
+T&R Manuals Index (from manifests and download index)
+
+- Publication: NAVMC 3500.3E Manpower & Administration T&R
+  Code: NAVMC 3500.3E
+  Focus: G1 training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.3E%20Manpower%20and%20Administrtion%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.6C Ground Electronics Maintenance T&R
+  Code: NAVMC 3500.6C
+  Focus: Electronics maintenance standards
+  Source: https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/1462111/navmc-35006c/
+  Available: No
+
+- Publication: NAVMC 3500.9C COMMSTRAT T&R
+  Code: NAVMC 3500.9C
+  Focus: COMMSTRAT standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.9C%20Communication%20Strategy%20and%20Operations%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.12B Engineer & Utilities T&R Manual
+  Code: NAVMC 3500.12B
+  Focus: Engineer & Utilities training standards
+  Source: https://www.marines.mil/Portals/1/NAVMC%203500.12B%20W%20CH%201-2.pdf
+  Available: No
+
+- Publication: NAVMC 3500.14F Aviation Training & Readiness Program Manual
+  Code: NAVMC 3500.14F
+  Focus: Aviation T&R Program (MAGTF Aviation)
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.14F%20%28SECURED%29.pdf
+  Available: No
+
+- Publication: NAVMC 3500.27D Logistics T&R
+  Code: NAVMC 3500.27D
+  Focus: Logistics training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.27D.pdf
+  Available: No
+
+- Publication: NAVMC 3500.33C Ground Ordnance Maintenance T&R
+  Code: NAVMC 3500.33C
+  Focus: Ordnance maint standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.33C%20Ground%20Ordnance%20Maintenance%20T-R%20Man.pdf
+  Available: No
+
+- Publication: NAVMC 3500.35C Food Services T&R Manual
+  Code: NAVMC 3500.35C
+  Focus: Food service community training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.35C%20FOOD%20SERVICES%20T-R%20MANUAL.pdf
+  Available: No
+
+- Publication: NAVMC 3500.39D Motor Transport T&R
+  Code: NAVMC 3500.39D
+  Focus: Motor Tpt training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.39D%20Motor%20Transport%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.54E Command & Control T&R
+  Code: NAVMC 3500.54E
+  Focus: C2 training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.54E%20Command%20and%20Control%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.55C Reconnaissance T&R Manual
+  Code: NAVMC 3500.55C
+  Focus: Reconnaissance unit training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.55C%20w%20CH%201-4.pdf
+  Available: No
+
+- Publication: NAVMC 3500.56C Communications T&R
+  Code: NAVMC 3500.56C
+  Focus: Communications training standards
+  Source: https://www.marines.mil/portals/1/publications/communications%20t-r%20manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.64D Supply Chain Management T&R
+  Code: NAVMC 3500.64D
+  Focus: Supply chain training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.64D.pdf
+  Available: No
+
+- Publication: NAVMC 3500.69C Financial Management T&R
+  Code: NAVMC 3500.69C
+  Focus: Financial Mgmt standards
+  Source: https://www.marines.mil/portals/1/Publications/NAVMC%203500.69C%20Financial%20Management%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.84B Health Services Support T&R Manual
+  Code: NAVMC 3500.84B
+  Focus: Health Services Support (HSS/Medical) training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.84B%20w%20CH-2.pdf
+  Available: No
+
+- Publication: NAVMC 3500.100C Intelligence & Ground Sensors T&R
+  Code: NAVMC 3500.100C
+  Focus: G2 training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.100C%20Intelligence%20and%20Ground%20Sensors%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.106A Ground T&R Program
+  Code: NAVMC 3500.106A
+  Focus: T&R program policy
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.106A.pdf
+  Available: No
+
+- Publication: NAVMC 3500.108B MAGTF Planner T&R
+  Code: NAVMC 3500.108B
+  Focus: Planning community standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.108B%20Marine%20Air-Ground%20Task%20Force%20Planner%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.119 Tactical Air Operations Center T&R Manual
+  Code: NAVMC 3500.119
+  Focus: Aviation Command & Control (TAOC) training standards
+  Source: https://www.marines.mil/Portals/1/navmc%203500.119.pdf
+  Available: No
+
+- Publication: NAVMC 3500.124A Information Maneuver T&R (Ch 1)
+  Code: NAVMC 3500.124A
+  Focus: Information maneuver
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.124A%20Ch%201.pdf
+  Available: No

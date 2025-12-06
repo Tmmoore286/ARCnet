@@ -1,0 +1,29 @@
+%% ARCnet On-Device Architecture and SSOT (MVP Guardrails)
+flowchart LR
+  subgraph iPad_App[ARCnet iPad App]
+    UI["SwiftUI UI\nDashboard & Org Chart"]
+    ORCH[Stage Orchestrator]
+    AGENTS["Agents (billets/shops)"]
+    CORE[(CoreData SSOT)]
+    KEY["Keychain\n(OpenAI API key)"]
+    LOGS[("Checkpoints / Decision Ledger")]
+  end
+
+  ORGPACK[USMC Org Pack\nRef-Packs/USMC_Org_Pack] --> IMPORT[Org Importer]
+  SYNTH[✅ Synthetic Feeds\nApp/Data/SyntheticData] --> FEED[Feed Importer]
+
+  IMPORT --> CORE
+  FEED --> CORE
+
+  ORCH --> AGENTS --> ORCH
+  ORCH --> CORE
+  UI <--> CORE
+  UI --> LOGS
+
+  OPENAI[(OpenAI API)] --> AGENTS
+
+  NOTE["No enterprise connectors;\nNo MCP/tool-calling at runtime"]:::warn
+
+  NOTE -. guardrail .-> iPad_App
+
+  classDef warn fill:#fdecea,stroke:#e0b4b4,color:#8a0000;

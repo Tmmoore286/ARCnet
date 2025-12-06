@@ -1,0 +1,10 @@
+G-Section,Specialist Roles (examples),Illustrative MOS,Agent Templates
+G1 – Manpower/Admin,"Adjutant, Admin Specialist, Career Planner, Casualty Affairs","0102/0170, 0111, 4821",Strength; Promotions; Casualty; Manning Forecast
+G2 – Intelligence,"Intel Officer, All-Source, GEOINT, Imagery, CI/HUMINT","0202, 0231, 0261, 0241, 0211",Collections; Fusion; GEOINT; Imagery; HUMINT/CI
+G3 – Operations,"OpsO, G-33, G-35, Fires/Targeting","0302/0369, 0861, 0802, 0505",COA Gen; Wargame; Fires Deconflict; Sync-Matrix
+G4 – Logistics,"LogO, Supply, Distribution, Embark, Maint Mgmt","0402, 3043, 3112, 0431, 0411",Supply Posture; Distro; Embark; Maint Forecast
+G5 – Plans,"MAGTF Planner, Campaign Planner","0505, 03xx/05xx",COA Design; Branch/Sequel; Assessment
+G6 – Comms/CIS,"CIS Officer, Radio, SATCOM, Data/Network, Spectrum","0602, 0621, 0627, 063x/067x, 064x",NetOps; SATCOM; Spectrum/EMCON; Hardening
+G7 – Training,"Training Officer/Chief, DRRS-MC",varies,METL & T&R; Readiness Reporter
+G8 – Finance/Comptroller,"FM Officer, Budget, Accounting, Audit","3404, 3451, 3432",Budget; Funds Control; Accounting; Audit Liaison
+G9 – Civil/Information,"Civil Affairs, COMMSTRAT (PA/VI)","0530/0531, 45xx",Civil Engagement; Info Env; Narrative/Release

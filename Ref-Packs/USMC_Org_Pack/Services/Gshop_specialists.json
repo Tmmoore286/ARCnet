@@ -1,0 +1,56 @@
+[
+  {
+    "G-Section": "G1 \u2013 Manpower/Admin",
+    "Specialist Roles": "Adjutant, Admin Specialist, Career Planner, Casualty Affairs",
+    "Illustrative MOS": "0102/0170, 0111, 4821",
+    "Agent Templates": "Strength; Promotions; Casualty; Manning Forecast"
+  },
+  {
+    "G-Section": "G2 \u2013 Intelligence",
+    "Specialist Roles": "Intel Officer, All-Source, GEOINT, Imagery, CI/HUMINT",
+    "Illustrative MOS": "0202, 0231, 0261, 0241, 0211",
+    "Agent Templates": "Collections; Fusion; GEOINT; Imagery; HUMINT/CI"
+  },
+  {
+    "G-Section": "G3 \u2013 Operations",
+    "Specialist Roles": "OpsO, G-33, G-35, Fires/Targeting",
+    "Illustrative MOS": "0302/0369, 0861, 0802, 0505",
+    "Agent Templates": "COA Gen; Wargame; Fires Deconflict; Sync-Matrix"
+  },
+  {
+    "G-Section": "G4 \u2013 Logistics",
+    "Specialist Roles": "LogO, Supply, Distribution, Embark, Maint Mgmt",
+    "Illustrative MOS": "0402, 3043, 3112, 0431, 0411",
+    "Agent Templates": "Supply Posture; Distro; Embark; Maint Forecast"
+  },
+  {
+    "G-Section": "G5 \u2013 Plans",
+    "Specialist Roles": "MAGTF Planner, Campaign Planner",
+    "Illustrative MOS": "0505, 03xx/05xx",
+    "Agent Templates": "COA Design; Branch/Sequel; Assessment"
+  },
+  {
+    "G-Section": "G6 \u2013 Comms/CIS",
+    "Specialist Roles": "CIS Officer, Radio, SATCOM, Data/Network, Spectrum",
+    "Illustrative MOS": "0602, 0621, 0627, 063x/067x, 064x",
+    "Agent Templates": "NetOps; SATCOM; Spectrum/EMCON; Hardening"
+  },
+  {
+    "G-Section": "G7 \u2013 Training",
+    "Specialist Roles": "Training Officer/Chief, DRRS-MC",
+    "Illustrative MOS": "varies",
+    "Agent Templates": "METL & T&R; Readiness Reporter"
+  },
+  {
+    "G-Section": "G8 \u2013 Finance/Comptroller",
+    "Specialist Roles": "FM Officer, Budget, Accounting, Audit",
+    "Illustrative MOS": "3404, 3451, 3432",
+    "Agent Templates": "Budget; Funds Control; Accounting; Audit Liaison"
+  },
+  {
+    "G-Section": "G9 \u2013 Civil/Information",
+    "Specialist Roles": "Civil Affairs, COMMSTRAT (PA/VI)",
+    "Illustrative MOS": "0530/0531, 45xx",
+    "Agent Templates": "Civil Engagement; Info Env; Narrative/Release"
+  }
+]

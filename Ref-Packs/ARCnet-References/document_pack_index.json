@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "documents": [
+    {
+      "doc_id": "MCWP_3_01_Offense_Defense",
+      "title": "MCWP 3 01 Offense Defense",
+      "path": "Ref-Packs/ARCnet-References/downloads/modernization/MCWP_3-01_Offense_and_Defense.pdf",
+      "sha256": "0628967c1695d40ed1239181380480aa8a07538836d1e82838ff316b863941fd",
+      "available": true
+    },
+    {
+      "doc_id": "MCDP_1_Warfighting",
+      "title": "MCDP 1 Warfighting",
+      "path": "Ref-Packs/ARCnet-References/downloads/modernization/MCDP_1_Warfighting.pdf",
+      "sha256": "51008277a48f89dc4f302715764461086a5e616d520a41b71bdbd3f8f35097c0",
+      "available": true
+    },
+    {
+      "doc_id": "MCWP_5_10_MCPP",
+      "title": "MCWP 5 10 MCPP",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/MCWP_5-10_Marine_Corps_Planning_Process.pdf",
+      "sha256": "d89935e4ff2f0a40ca008c2612dc41ac2c81444928aa3a0549fa63a6cec46296",
+      "available": true
+    },
+    {
+      "doc_id": "MCDP_5_Planning",
+      "title": "MCDP 5 Planning",
+      "path": "Ref-Packs/ARCnet-References/downloads/modernization/MCDP_5_Planning.pdf",
+      "sha256": "410a176d31491283a58a21e8b36ac29c63a63b14246b627b7d93f007509a75c2",
+      "available": true
+    },
+    {
+      "doc_id": "MCWP_11_10_Legal_Support",
+      "title": "MCWP 11 10 Legal Support",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/MCWP_11-10_Marine_Corps_Legal_Support.pdf",
+      "sha256": "09dc2b6f9a4dd984c9f8f715a2764e65e0f7e38cd9531d6e2f69e4ca755d1180",
+      "available": true
+    },
+    {
+      "doc_id": "NAVMC_3500_27D_Logistics_TR",
+      "title": "NAVMC 3500 27D Logistics TR",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.27D_Logistics_T_R.pdf",
+      "sha256": "f7de5c87a7e8fdbf6d5e3e61b11cef0b62eba93d9cfd33594f7971bb40b7ca6f",
+      "available": true
+    },
+    {
+      "doc_id": "NAVMC_3500_100C_Intel_TR",
+      "title": "NAVMC 3500 100C Intel TR",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.100C_Intelligence___Ground_Sensors_T_R.pdf",
+      "sha256": "4c4cc0b2f65f5734c82a5b58fa32f45e7a37c69eddf4ab9283bf8c0d1822f46a",
+      "available": true
+    },
+    {
+      "doc_id": "NAVMC_3500_106A_Ground_TR",
+      "title": "NAVMC 3500 106A Ground TR",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.106A_Ground_T_R_Program.pdf",
+      "sha256": "1d9b6df524abac3882413dfcdd82d028ee7fc050612f5ca7df005d47dc895869",
+      "available": true
+    },
+    {
+      "doc_id": "NAVMC_3500_39D_Motor_Transport_TR",
+      "title": "NAVMC 3500 39D Motor Transport TR",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.39D_Motor_Transport_T_R.pdf",
+      "sha256": "5aca261ad3bf65d3dc0586b5d42231b88b6373ccf07e7dcbb0dc8f1531dcb79f",
+      "available": true
+    },
+    {
+      "doc_id": "NAVMC_3500_56C_Comms_TR",
+      "title": "NAVMC 3500 56C Comms TR",
+      "path": "Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.56C_Communications_T_R.pdf",
+      "sha256": "4143256bd97d9c46bd1b1f7045e943de5e277316ccfa330b0191b9b645860bb2",
+      "available": true
+    },
+    {
+      "doc_id": "MCRP_1_10_1_Organization",
+      "title": "MCRP 1 10 1 Organization",
+      "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf",
+      "available": false
+    }
+  ]
+}

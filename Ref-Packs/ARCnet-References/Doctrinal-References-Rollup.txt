@@ -1,0 +1,431 @@
+UNCLASSIFIED
+Doctrinal References Rollup (manifests + downloads)
+
+- Publication: MCDP 1 Warfighting
+  Code: MCDP 1
+  Year: 1997 (rev.)
+  Type: MCDP
+  Focus: Foundational doctrine; maneuver warfare
+  Source: Ref-Packs/ARCnet-References/downloads/modernization/MCDP_1_Warfighting.pdf
+  Available: Yes
+
+- Publication: MCDP 1-0 Marine Corps Operations
+  Code: MCDP 1
+  Year: 2001 (w/ CH 1-3)
+  Type: MCDP
+  Focus: Operations overview; MAGTF employment
+  Source: Ref-Packs/ARCnet-References/downloads/modernization/MCDP_1_Warfighting.pdf
+  Available: Yes
+
+- Publication: MCDP 1-4 Competing
+  Code: MCDP 1
+  Year: 2020
+  Type: MCDP
+  Focus: Competition below armed conflict
+  Source: Ref-Packs/ARCnet-References/downloads/modernization/MCDP_1_Warfighting.pdf
+  Available: Yes
+
+- Publication: MCDP 5 Planning
+  Code: MCDP 5
+  Year: 1997 (Change 1 2018)
+  Type: MCDP
+  Focus: Planning philosophy
+  Source: Ref-Packs/ARCnet-References/downloads/modernization/MCDP_5_Planning.pdf
+  Available: Yes
+
+- Publication: MCO 1553.3C Unit Training Management
+  Code: MCO 1553.3C
+  Year: 2023
+  Type: MCO
+  Focus: Training policy
+  Source: https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899431/mco-15533c/
+  Available: No
+
+- Publication: MCO 3000.13B Readiness Reporting
+  Code: MCO 3000.13B
+  Year: 2020
+  Type: MCO
+  Focus: Unit readiness reporting (DRRS-MC)
+  Source: https://www.ppo.marines.mil/Portals/138/Docs/POR/MCO%203000_13B%20Published.pdf
+  Available: No
+
+- Publication: MCO 4400.201 Vol 3 Retail Supply Policy
+  Code: MCO 4400.201
+  Year: 2016
+  Type: MCO
+  Focus: Supply policy
+  Source: https://www.marines.mil/Portals/1/Publications/MCO%204400.201%20Volume%203_Final.pdf
+  Available: No
+
+- Publication: MCO 7300.21B Financial Mgmt SOP
+  Code: MCO 7300.21B
+  Year: 2015
+  Type: MCO
+  Focus: Financial Mgmt SOP and policy
+  Source: https://www.marines.mil/portals/1/mco_7300.21b_final_signed.pdf
+  Available: No
+
+- Publication: MCWP 2-10 Intelligence Operations
+  Code: MCWP 2-10
+  Year: 2021
+  Type: MCWP
+  Focus: Intel doctrine
+  Source: https://www.marines.mil/Portals/1/Publications/MCWP%202-10.pdf
+  Available: No
+
+- Publication: MCWP 3-01 Offensive and Defensive Tactics
+  Code: MCWP 3-01
+  Year: 2019
+  Type: MCWP
+  Focus: Tactics
+  Source: https://www.marines.mil/Portals/1/Publications/MCWP%203-01.pdf
+  Available: No
+
+- Publication: MCWP 3-01 Offense and Defense
+  Code: MCWP 3-01
+  Year: 2019
+  Type: MCWP
+  Focus: War-fighting tactics
+  Source: https://www.marines.mil/Portals/1/Publications/MCWP%203-01.pdf
+  Available: No
+
+- Publication: MCWP 5-10 Marine Corps Planning Process
+  Code: MCWP 5-10
+  Year: 2018/2020
+  Type: MCWP
+  Focus: Planning process
+  Source: https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf
+  Available: No
+
+- Publication: MCWP 8-10 Information in Marine Corps Operations
+  Code: MCWP 8-10
+  Year: 2024
+  Type: MCWP
+  Focus: Information warfighting function
+  Source: https://www.marines.mil/Portals/1/Publications/MCWP%208-10%20%28SECURED%29.pdf
+  Available: No
+
+- Publication: MCWP 11 10 Legal Support
+  Code: MCWP 11
+  Source: Ref-Packs/ARCnet-References/downloads/core/MCWP_11-10_Marine_Corps_Legal_Support.pdf
+  Available: Yes
+
+- Publication: MCWP 11-10 Marine Corps Legal Support
+  Code: MCWP 11-10
+  Year: 2025
+  Type: MCWP
+  Focus: Legal support doctrine
+  Source: https://www.marines.mil/Portals/1/Publications/MCWP%2011-10%20%28SECURED%29.pdf
+  Available: No
+
+- Publication: NAVMC 1200.1L (MOS Manual)
+  Code: NAVMC 1200.1L
+  Year: 2025
+  Type: NAVMC
+  Focus: MOS definitions
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20%28SECURED%29.pdf
+  Available: No
+
+- Publication: NAVMC 3500.3E Manpower & Administration T&R
+  Code: NAVMC 3500.3E
+  Year: 2020
+  Type: NAVMC
+  Focus: G1 training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.3E%20Manpower%20and%20Administrtion%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.6C Ground Electronics Maintenance T&R
+  Code: NAVMC 3500.6C
+  Year: 2017
+  Type: NAVMC
+  Focus: Electronics maintenance standards
+  Source: https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/1462111/navmc-35006c/
+  Available: No
+
+- Publication: NAVMC 3500.9C COMMSTRAT T&R
+  Code: NAVMC 3500.9C
+  Year: 2018
+  Type: NAVMC
+  Focus: COMMSTRAT standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.9C%20Communication%20Strategy%20and%20Operations%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.12B Engineer & Utilities T&R Manual
+  Code: NAVMC 3500.12B
+  Year: 2016 w/ Ch 1-2
+  Type: NAVMC
+  Focus: Engineer & Utilities training standards
+  Source: https://www.marines.mil/Portals/1/NAVMC%203500.12B%20W%20CH%201-2.pdf
+  Available: No
+
+- Publication: NAVMC 3500.14F Aviation Training & Readiness Program Manual
+  Code: NAVMC 3500.14F
+  Year: 2021
+  Type: NAVMC
+  Focus: Aviation T&R Program (MAGTF Aviation)
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.14F%20%28SECURED%29.pdf
+  Available: No
+
+- Publication: NAVMC 3500.27D Logistics T&R
+  Code: NAVMC 3500.27D
+  Year: 2019
+  Type: NAVMC
+  Focus: Logistics training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.27D.pdf
+  Available: No
+
+- Publication: NAVMC 3500.33C Ground Ordnance Maintenance T&R
+  Code: NAVMC 3500.33C
+  Year: 2019
+  Type: NAVMC
+  Focus: Ordnance maint standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.33C%20Ground%20Ordnance%20Maintenance%20T-R%20Man.pdf
+  Available: No
+
+- Publication: NAVMC 3500.35C Food Services T&R Manual
+  Code: NAVMC 3500.35C
+  Year: 2017
+  Type: NAVMC
+  Focus: Food service community training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.35C%20FOOD%20SERVICES%20T-R%20MANUAL.pdf
+  Available: No
+
+- Publication: NAVMC 3500.39D Motor Transport T&R
+  Code: NAVMC 3500.39D
+  Year: 2020
+  Type: NAVMC
+  Focus: Motor Tpt training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.39D%20Motor%20Transport%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.54E Command & Control T&R
+  Code: NAVMC 3500.54E
+  Year: 2019
+  Type: NAVMC
+  Focus: C2 training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.54E%20Command%20and%20Control%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.55C Reconnaissance T&R Manual
+  Code: NAVMC 3500.55C
+  Year: 2020 w/ CH 1-4
+  Type: NAVMC
+  Focus: Reconnaissance unit training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.55C%20w%20CH%201-4.pdf
+  Available: No
+
+- Publication: NAVMC 3500.56C Communications T&R
+  Code: NAVMC 3500.56C
+  Year: 2016
+  Type: NAVMC
+  Focus: Communications training standards
+  Source: https://www.marines.mil/portals/1/publications/communications%20t-r%20manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.64D Supply Chain Management T&R
+  Code: NAVMC 3500.64D
+  Year: 2022
+  Type: NAVMC
+  Focus: Supply chain training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.64D.pdf
+  Available: No
+
+- Publication: NAVMC 3500.69C Financial Management T&R
+  Code: NAVMC 3500.69C
+  Year: 2018
+  Type: NAVMC
+  Focus: Financial Mgmt standards
+  Source: https://www.marines.mil/portals/1/Publications/NAVMC%203500.69C%20Financial%20Management%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.84B Health Services Support T&R Manual
+  Code: NAVMC 3500.84B
+  Year: 2020 w/ CH-2
+  Type: NAVMC
+  Focus: Health Services Support (HSS/Medical) training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.84B%20w%20CH-2.pdf
+  Available: No
+
+- Publication: NAVMC 3500.100C Intelligence & Ground Sensors T&R
+  Code: NAVMC 3500.100C
+  Year: 2019
+  Type: NAVMC
+  Focus: G2 training standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.100C%20Intelligence%20and%20Ground%20Sensors%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.106A Ground T&R Program
+  Code: NAVMC 3500.106A
+  Year: 2021
+  Type: NAVMC
+  Focus: T&R program policy
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.106A.pdf
+  Available: No
+
+- Publication: NAVMC 3500.108B MAGTF Planner T&R
+  Code: NAVMC 3500.108B
+  Year: 2020
+  Type: NAVMC
+  Focus: Planning community standards
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.108B%20Marine%20Air-Ground%20Task%20Force%20Planner%20T-R%20Manual.pdf
+  Available: No
+
+- Publication: NAVMC 3500.119 Tactical Air Operations Center T&R Manual
+  Code: NAVMC 3500.119
+  Year: 2018
+  Type: NAVMC
+  Focus: Aviation Command & Control (TAOC) training standards
+  Source: https://www.marines.mil/Portals/1/navmc%203500.119.pdf
+  Available: No
+
+- Publication: NAVMC 3500.124A Information Maneuver T&R (Ch 1)
+  Code: NAVMC 3500.124A
+  Year: 2022
+  Type: NAVMC
+  Focus: Information maneuver
+  Source: https://www.marines.mil/Portals/1/Publications/NAVMC%203500.124A%20Ch%201.pdf
+  Available: No
+
+- Publication: 39th Commandant's Planning Guidance (CPG)
+  Year: 2024
+  Type: CPG
+  Focus: CMC priorities and guidance
+  Source: https://www.cmc.marines.mil/CPG/
+  Available: No
+
+- Publication: Boyd – A Discourse on Winning and Losing (AUPress)
+  Year: 2018
+  Type: Book/PDF
+  Focus: OODA & strategic theory (compiled briefings)
+  Source: https://www.airuniversity.af.edu/Portals/10/AUPress/Books/B_0151_Boyd_Discourse_Winning_Losing.pdf
+  Available: No
+
+- Publication: Boyd – Destruction and Creation (1976)
+  Year: 1976
+  Type: Paper
+  Focus: Epistemology behind OODA
+  Source: https://www.coljohnboyd.com/static/documents/1976-09-03__Boyd_John_R__Destruction_and_Creation.pdf
+  Available: No
+
+- Publication: CMC Posture Statement (2025) – Gen Eric M. Smith
+  Year: 2025
+  Type: Statement
+  Focus: Priorities; modernization; posture
+  Source: https://www.cmc.marines.mil/Speeches-and-Transcripts/Transcripts/Article/4186803/statement-of-general-eric-m-smith-commandant-of-the-marine-corps-on-the-posture/
+  Available: No
+
+- Publication: CNAS – Force Design Commentary (mirror)
+  Year: 2023
+  Type: Article
+  Focus: CNAS commentary mirror of Work piece
+  Source: https://www.cnas.org/publications/commentary/marine-force-design-changes-overdue-despite-critics-claims
+  Available: No
+
+- Publication: Commander’s Readiness Handbook
+  Year: 2020
+  Type: Handbook
+  Focus: Readiness reporting overview
+  Source: https://www.ppo.marines.mil/Portals/138/Docs/POR/Commanders_Readiness_Handbook_2020.pdf
+  Available: No
+
+- Publication: FRAGO 01-2024 (CMC)
+  Year: 2024
+  Type: FRAGO
+  Focus: Priorities and guidance; continuation of Force Design
+  Source: https://www.cmc.marines.mil/FRAGO-01-2024/
+  Available: No
+
+- Publication: Force Design 2030 (Initial Report)
+  Year: 2020
+  Type: FD2030
+  Focus: Modernization blueprint
+  Source: https://www.hqmc.marines.mil/Portals/142/Docs/CMC38%20Force%20Design%202030%20Report%20Phase%20I%20and%20II.pdf
+  Available: No
+
+- Publication: Force Design 2030 Annual Update (2021)
+  Year: 2021
+  Type: FD2030
+  Focus: Annual update
+  Source: https://www.marines.mil/Portals/1/Docs/2021%20Force%20Design%20Annual%20Update.pdf
+  Available: No
+
+- Publication: Force Design 2030 Annual Update (2022)
+  Year: 2022
+  Type: FD2030
+  Focus: Annual update
+  Source: https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_May_2022.pdf
+  Available: No
+
+- Publication: Force Design 2030 Annual Update (2023)
+  Year: 2023
+  Type: FD2030
+  Focus: Annual update
+  Source: https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf
+  Available: No
+
+- Publication: MCRP 1 10 1 Organization
+  Source: https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf
+  Available: No
+
+- Publication: MCRP 2-10B.1 Intelligence Preparation of the Battlespace
+  Year: 2023
+  Type: MCRP
+  Focus: Intel/IPB reference
+  Source: https://www.marines.mil/Portals/1/Publications/MCRP%202-10B.1.pdf
+  Available: No
+
+- Publication: MCWP 3 01 Offense Defense
+  Source: Ref-Packs/ARCnet-References/downloads/modernization/MCWP_3-01_Offense_and_Defense.pdf
+  Available: Yes
+
+- Publication: MCWP 5 10 MCPP
+  Source: Ref-Packs/ARCnet-References/downloads/core/MCWP_5-10_Marine_Corps_Planning_Process.pdf
+  Available: Yes
+
+- Publication: Marine Corps Force Design hub
+  Year: Current
+  Type: Web
+  Focus: Force Design overview (landing page)
+  Source: https://www.marines.mil/Force-Design/
+  Available: No
+
+- Publication: NAVMC 3500 100C Intel TR
+  Source: Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.100C_Intelligence___Ground_Sensors_T_R.pdf
+  Available: Yes
+
+- Publication: NAVMC 3500 106A Ground TR
+  Source: Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.106A_Ground_T_R_Program.pdf
+  Available: Yes
+
+- Publication: NAVMC 3500 27D Logistics TR
+  Source: Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.27D_Logistics_T_R.pdf
+  Available: Yes
+
+- Publication: NAVMC 3500 39D Motor Transport TR
+  Source: Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.39D_Motor_Transport_T_R.pdf
+  Available: Yes
+
+- Publication: NAVMC 3500 56C Comms TR
+  Source: Ref-Packs/ARCnet-References/downloads/core/NAVMC_3500.56C_Communications_T_R.pdf
+  Available: Yes
+
+- Publication: Robert Work – Marine Force Design: Changes Overdue (TNSR)
+  Year: 2023
+  Type: Article
+  Focus: Modernization argument and analysis
+  Source: https://tnsr.org/2023/05/marine-force-design-changes-overdue-despite-critics-claims/
+  Available: No
+
+- Publication: Training and Education 2030
+  Year: 2023
+  Type: TE2030
+  Focus: Training & education modernization
+  Source: https://www.marines.mil/Portals/1/Docs/Training%20and%20Education%202030.pdf
+  Available: No
+
+- Publication: USMC CDI – 5 Years of Force Design Modernization
+  Year: 2025
+  Type: Article
+  Focus: Program midpoint overview
+  Source: https://www.cdi.marines.mil/News/Article/Article/4260544/marine-corps-marks-5-years-of-force-design-modernization/
+  Available: No

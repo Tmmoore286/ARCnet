@@ -1,0 +1,3 @@
+// Mode flags (synthetic/offline) (read via ProcessInfo or compile-time where appropriate)
+USE_SYNTHETIC_FEEDS = YES
+NO_CONNECTORS = YES

@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+	A1B2C3D4E5F60123456789C1 /* ARCnetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6012345678911 /* ARCnetApp.swift */; };
+	A1B2C3D4E5F60123456789C2 /* MissionInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6012345678916 /* MissionInputView.swift */; };
+	A1B2C3D4E5F60123456789C3 /* MissionInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6012345678917 /* MissionInputViewModel.swift */; };
+	A1B2C3D4E5F60123456789C4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6012345678912 /* Models.swift */; };
+	A1B2C3D4E5F60123456789C5 /* StageOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6012345678913 /* StageOrchestrator.swift */; };
+	A1B2C3D4E5F60123456789D9 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60123456789D8 /* OpenAIClient.swift */; };
+	A1B2C3D4E5F60123456789DB /* LLMTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60123456789DA /* LLMTypes.swift */; };
+	A1B2C3D4E5F60123456789C7 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6012345678915 /* KeychainService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	A1B2C3D4E5F6012345678901 /* ARCnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+	A1B2C3D4E5F6012345678910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678911 /* ARCnetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCnetApp.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678912 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678913 /* StageOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageOrchestrator.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F60123456789D8 /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F60123456789DA /* LLMTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMTypes.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678915 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678916 /* MissionInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInputView.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678917 /* MissionInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInputViewModel.swift; sourceTree = "<group>"; };
+	A1B2C3D4E5F6012345678918 /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	A1B2C3D4E5F60123456789B8 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	A1B2C3D4E5F60123456789AC = {isa = PBXGroup; children = (
+                A1B2C3D4E5F6012345678920 /* App */, 
+                A1B2C3D4E5F6012345678902 /* Products */,
+            ); sourceTree = "<group>"; };
+
+        A1B2C3D4E5F6012345678902 /* Products */ = {isa = PBXGroup; children = (
+                A1B2C3D4E5F6012345678901 /* ARCnet.app */,
+            ); name = Products; sourceTree = "<group>"; };
+
+        A1B2C3D4E5F6012345678920 /* App */ = {isa = PBXGroup; path = App; sourceTree = SOURCE_ROOT; children = (
+                A1B2C3D4E5F6012345678921 /* Support */,
+                A1B2C3D4E5F6012345678922 /* UI */,
+                A1B2C3D4E5F6012345678923 /* Domain */,
+                A1B2C3D4E5F6012345678924 /* Engine */,
+                A1B2C3D4E5F6012345678925 /* LLM */,
+                A1B2C3D4E5F6012345678926 /* Security */,
+                A1B2C3D4E5F6012345678927 /* ARCnetApp.swift Group */,
+            ); };
+
+        A1B2C3D4E5F6012345678921 /* Support */ = {isa = PBXGroup; path = Support; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678910 /* Info.plist */,
+                A1B2C3D4E5F6012345678918 /* AppConfig.xcconfig */,
+            ); };
+
+        A1B2C3D4E5F6012345678922 /* UI */ = {isa = PBXGroup; path = UI; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678930 /* MissionInput */,
+            ); };
+        A1B2C3D4E5F6012345678930 /* MissionInput */ = {isa = PBXGroup; path = MissionInput; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678916 /* MissionInputView.swift */,
+                A1B2C3D4E5F6012345678917 /* MissionInputViewModel.swift */,
+            ); };
+
+        A1B2C3D4E5F6012345678923 /* Domain */ = {isa = PBXGroup; path = Domain; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678912 /* Models.swift */,
+            ); };
+        A1B2C3D4E5F6012345678924 /* Engine */ = {isa = PBXGroup; path = Engine; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678913 /* StageOrchestrator.swift */,
+            ); };
+        A1B2C3D4E5F6012345678925 /* LLM */ = {isa = PBXGroup; path = LLM; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F60123456789DA /* LLMTypes.swift */,
+                A1B2C3D4E5F60123456789D8 /* OpenAIClient.swift */,
+            ); };
+        A1B2C3D4E5F6012345678926 /* Security */ = {isa = PBXGroup; path = Security; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678915 /* KeychainService.swift */,
+            ); };
+        A1B2C3D4E5F6012345678927 /* ARCnetApp.swift Group */ = {isa = PBXGroup; name = ARCnet; path = .; sourceTree = "<group>"; children = (
+                A1B2C3D4E5F6012345678911 /* ARCnetApp.swift */,
+            ); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        A1B2C3D4E5F60123456789AD /* ARCnet */ = {isa = PBXNativeTarget; buildConfigurationList = A1B2C3D4E5F60123456789B0 /* Build configuration list for PBXNativeTarget "ARCnet" */; buildPhases = (
+                A1B2C3D4E5F60123456789B7 /* Sources */,
+                A1B2C3D4E5F60123456789B8 /* Frameworks */,
+                A1B2C3D4E5F60123456789B9 /* Resources */,
+            ); buildRules = ( ); dependencies = ( ); name = ARCnet; productName = ARCnet; productReference = A1B2C3D4E5F6012345678901 /* ARCnet.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        A1B2C3D4E5F60123456789AB /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; ORGANIZATIONNAME = "ARCnet"; }; buildConfigurationList = A1B2C3D4E5F60123456789AF /* Build configuration list for PBXProject "ARCnet" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en ); mainGroup = A1B2C3D4E5F60123456789AC; productRefGroup = A1B2C3D4E5F6012345678902 /* Products */; projectDirPath = ""; projectRoot = ""; targets = ( A1B2C3D4E5F60123456789AD /* ARCnet */ ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        A1B2C3D4E5F60123456789B9 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        A1B2C3D4E5F60123456789B7 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+                A1B2C3D4E5F60123456789C1 /* ARCnetApp.swift in Sources */,
+                A1B2C3D4E5F60123456789C2 /* MissionInputView.swift in Sources */,
+                A1B2C3D4E5F60123456789C3 /* MissionInputViewModel.swift in Sources */,
+                A1B2C3D4E5F60123456789C4 /* Models.swift in Sources */,
+                A1B2C3D4E5F60123456789C5 /* StageOrchestrator.swift in Sources */,
+                A1B2C3D4E5F60123456789C7 /* KeychainService.swift in Sources */,
+                A1B2C3D4E5F60123456789DB /* LLMTypes.swift in Sources */,
+                A1B2C3D4E5F60123456789D9 /* OpenAIClient.swift in Sources */,
+            ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        A1B2C3D4E5F60123456789B1 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                TARGETED_DEVICE_FAMILY = 2;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+            }; name = Debug; };
+        A1B2C3D4E5F60123456789B2 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                TARGETED_DEVICE_FAMILY = 2;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+            }; name = Release; };
+        A1B2C3D4E5F60123456789B3 /* Local */ = {isa = XCBuildConfiguration; buildSettings = {
+                CLANG_ENABLE_MODULES = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                TARGETED_DEVICE_FAMILY = 2;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+            }; name = Local; };
+
+        A1B2C3D4E5F60123456789B4 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = App/Support/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.arcnet.app;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = 2;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+            }; name = Debug; };
+        A1B2C3D4E5F60123456789B5 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = App/Support/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.arcnet.app;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = 2;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+            }; name = Release; };
+        A1B2C3D4E5F60123456789B6 /* Local */ = {isa = XCBuildConfiguration; baseConfigurationReference = A1B2C3D4E5F6012345678918 /* AppConfig.xcconfig */; buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = App/Support/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.arcnet.app;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = 2;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+            }; name = Local; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        A1B2C3D4E5F60123456789AF /* Build configuration list for PBXProject "ARCnet" */ = {isa = XCConfigurationList; buildConfigurations = (
+                A1B2C3D4E5F60123456789B1 /* Debug */,
+                A1B2C3D4E5F60123456789B2 /* Release */,
+                A1B2C3D4E5F60123456789B3 /* Local */,
+            ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Local; };
+        A1B2C3D4E5F60123456789B0 /* Build configuration list for PBXNativeTarget "ARCnet" */ = {isa = XCConfigurationList; buildConfigurations = (
+                A1B2C3D4E5F60123456789B4 /* Debug */,
+                A1B2C3D4E5F60123456789B5 /* Release */,
+                A1B2C3D4E5F60123456789B6 /* Local */,
+            ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Local; };
+/* End XCConfigurationList section */
+
+};
+rootObject = A1B2C3D4E5F60123456789AB /* Project object */;
+}

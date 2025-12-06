@@ -1,0 +1,376 @@
+{
+  "unit_name": "1st Marine Division (Template)",
+  "echelon": "MARDIV",
+  "type": "GCE",
+  "magtaf_element": "GCE",
+  "approximate": true,
+  "notes": "Standard division composition; adjust per real unit.",
+  "provenance": {
+    "sources": [
+      {
+        "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+        "citation": "MCRP 1-10.1",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+      },
+      {
+        "title": "MCWP 5-10 Marine Corps Planning Process",
+        "citation": "MCWP 5-10",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+      },
+      {
+        "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+        "citation": "MARADMIN 332/25 (17 Jul 2025)",
+        "url": "https://www.marines.mil/News/Messages/"
+      }
+    ],
+    "last_reviewed": "2025-10-18"
+  },
+  "default_agents": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G6",
+    "G8"
+  ],
+  "children": [
+    {
+      "unit_name": "1st Marine Regiment (Template)",
+      "echelon": "REGIMENT",
+      "type": "Infantry",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": [
+        {
+          "unit_name": "Infantry Battalion A (Template)",
+          "echelon": "BATTALION",
+          "type": "Infantry",
+          "magtaf_element": "GCE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-18"
+          },
+          "children": [
+            {
+              "unit_name": "H&S Company",
+              "echelon": "COMPANY",
+              "type": "HQ",
+              "magtaf_element": "GCE",
+              "approximate": true,
+              "provenance": {
+                "sources": [
+                  {
+                    "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                    "citation": "MCRP 1-10.1",
+                    "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+                  },
+                  {
+                    "title": "MCWP 5-10 Marine Corps Planning Process",
+                    "citation": "MCWP 5-10",
+                    "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+                  },
+                  {
+                    "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                    "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                    "url": "https://www.marines.mil/News/Messages/"
+                  }
+                ],
+                "last_reviewed": "2025-10-18"
+              },
+              "children": []
+            },
+            {
+              "unit_name": "Rifle Company (x3)",
+              "echelon": "COMPANY",
+              "type": "Rifle",
+              "magtaf_element": "GCE",
+              "approximate": true,
+              "provenance": {
+                "sources": [
+                  {
+                    "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                    "citation": "MCRP 1-10.1",
+                    "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+                  },
+                  {
+                    "title": "MCWP 5-10 Marine Corps Planning Process",
+                    "citation": "MCWP 5-10",
+                    "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+                  },
+                  {
+                    "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                    "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                    "url": "https://www.marines.mil/News/Messages/"
+                  }
+                ],
+                "last_reviewed": "2025-10-18"
+              },
+              "children": []
+            },
+            {
+              "unit_name": "Weapons Company",
+              "echelon": "COMPANY",
+              "type": "Weapons",
+              "magtaf_element": "GCE",
+              "approximate": true,
+              "provenance": {
+                "sources": [
+                  {
+                    "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                    "citation": "MCRP 1-10.1",
+                    "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+                  },
+                  {
+                    "title": "MCWP 5-10 Marine Corps Planning Process",
+                    "citation": "MCWP 5-10",
+                    "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+                  },
+                  {
+                    "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                    "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                    "url": "https://www.marines.mil/News/Messages/"
+                  }
+                ],
+                "last_reviewed": "2025-10-18"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_name": "5th Marine Regiment (Template)",
+      "echelon": "REGIMENT",
+      "type": "Infantry",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "7th Marine Regiment (Template)",
+      "echelon": "REGIMENT",
+      "type": "Infantry",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "11th Marines (Artillery) (Template)",
+      "echelon": "REGIMENT",
+      "type": "Artillery",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "1st Recon Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "Recon",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "1st LAR Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "LAR",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "1st CEB (Template)",
+      "echelon": "BATTALION",
+      "type": "Engineer",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "HQ Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "HQ",
+      "magtaf_element": "GCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-18"
+      },
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+%% ARCnet Commander-in-Control Workflow with HITL Gates and Checkpoints
+flowchart LR
+  A["Mission Input\nScribe"] --> B[Coordinator]
+  B --> C{Mode}
+  C -->|Org| O1["Org-Lane Agents\n(status retrieval)"]
+  C -->|Mesh| M1["Mesh Specialists\n(similarity-gated)"]
+  C -->|Hybrid| H1["Hybrid\n(Org + Mesh)"]
+
+  O1 --> D[Compiler]
+  M1 --> D
+  H1 --> D
+
+  D --> E["Evaluation\n(COA tournament?)"]
+  E -->|Yes| T[COA Generator\nscore & rank]
+  E -->|No| P[Proposed Plan]
+
+  T --> G["Approval Gate\n(HITL default)"]
+  P --> G
+  G -->|Approve| Q[Tasking / Orders]
+  G -->|Modify / Reject| B
+
+  subgraph Governance
+    K[(Checkpoints / Decision Ledger)]
+  end
+
+  A -.-> K
+  B -.-> K
+  D -.-> K
+  E -.-> K
+  T -.-> K
+  G -.-> K
+
+  classDef gate fill:#fff3cd,stroke:#c69500,color:#000;
+  class G gate

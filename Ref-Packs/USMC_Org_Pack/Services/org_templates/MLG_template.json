@@ -1,0 +1,291 @@
+{
+  "unit_name": "Marine Logistics Group (Template)",
+  "echelon": "MLG",
+  "type": "LCE",
+  "magtaf_element": "LCE",
+  "approximate": true,
+  "notes": "Standard MLG composition; adjust per real group. CLR with CLBs, battalions for supply/maintenance/engineer support, plus HSS and EOD.",
+  "provenance": {
+    "sources": [
+      {
+        "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+        "citation": "MCRP 1-10.1",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+      },
+      {
+        "title": "MCWP 5-10 Marine Corps Planning Process",
+        "citation": "MCWP 5-10",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+      },
+      {
+        "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+        "citation": "MARADMIN 332/25 (17 Jul 2025)",
+        "url": "https://www.marines.mil/News/Messages/"
+      }
+    ],
+    "last_reviewed": "2025-10-19"
+  },
+  "default_agents": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G6",
+    "G8"
+  ],
+  "children": [
+    {
+      "unit_name": "Combat Logistics Regiment (Template)",
+      "echelon": "REGIMENT",
+      "type": "Logistics",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": [
+        {
+          "unit_name": "Combat Logistics Battalion (x3) (Template)",
+          "echelon": "BATTALION",
+          "type": "CLB",
+          "magtaf_element": "LCE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "unit_name": "Supply Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "Supply",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "Maintenance Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "Maintenance",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "Engineer Support Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "Engineer Support",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "Landing Support Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "Landing Support",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "Transportation Support Battalion (Template)",
+      "echelon": "BATTALION",
+      "type": "Transportation Support",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "Medical / HSS (Template)",
+      "echelon": "OTHER",
+      "type": "HSS",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    },
+    {
+      "unit_name": "EOD Company (Template)",
+      "echelon": "OTHER",
+      "type": "EOD",
+      "magtaf_element": "LCE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "gate_policy.v1",
+  "autonomyDefaults": {
+    "billet": "HITL",
+    "section": "HOTL",
+    "unit": "HITL"
+  },
+  "gates": [
+    { "id": "A", "phase": "problem_framing", "authority": "CO", "requiresApproval": true },
+    { "id": "B", "phase": "coa_dev", "authority": "XO|CO", "requiresApproval": true },
+    { "id": "C", "phase": "comparison|wargame", "authority": "CO", "requiresApproval": true },
+    { "id": "D", "phase": "decision|orders", "authority": "CO", "requiresApproval": true }
+  ]
+}
+

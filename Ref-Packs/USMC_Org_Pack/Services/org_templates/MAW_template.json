@@ -1,0 +1,322 @@
+{
+  "unit_name": "Marine Aircraft Wing (Template)",
+  "echelon": "MAW",
+  "type": "ACE",
+  "magtaf_element": "ACE",
+  "approximate": true,
+  "notes": "Standard MAW composition; adjust per real wing. MAGs include squadrons and MWSS; MACG provides aviation C2.",
+  "provenance": {
+    "sources": [
+      {
+        "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+        "citation": "MCRP 1-10.1",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+      },
+      {
+        "title": "MCWP 5-10 Marine Corps Planning Process",
+        "citation": "MCWP 5-10",
+        "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+      },
+      {
+        "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+        "citation": "MARADMIN 332/25 (17 Jul 2025)",
+        "url": "https://www.marines.mil/News/Messages/"
+      }
+    ],
+    "last_reviewed": "2025-10-19"
+  },
+  "default_agents": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8"
+  ],
+  "children": [
+    {
+      "unit_name": "Marine Aircraft Group (x3) (Template)",
+      "echelon": "GROUP",
+      "type": "Aviation",
+      "magtaf_element": "ACE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": [
+        {
+          "unit_name": "Marine Wing Support Squadron (Template)",
+          "echelon": "SQUADRON",
+          "type": "MWSS",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        },
+        {
+          "unit_name": "Squadrons (various) (Template)",
+          "echelon": "SQUADRON",
+          "type": "Aviation",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "unit_name": "Marine Air Control Group (Template)",
+      "echelon": "GROUP",
+      "type": "Aviation C2",
+      "magtaf_element": "ACE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": [
+        {
+          "unit_name": "Low Altitude Air Defense Battalion (Template)",
+          "echelon": "BATTALION",
+          "type": "LAAD",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        },
+        {
+          "unit_name": "Marine Air Control Squadron (Template)",
+          "echelon": "SQUADRON",
+          "type": "MACS",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        },
+        {
+          "unit_name": "Marine Air Support Squadron (Template)",
+          "echelon": "SQUADRON",
+          "type": "MASS",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        },
+        {
+          "unit_name": "Marine Tactical Air Command Squadron (Template)",
+          "echelon": "SQUADRON",
+          "type": "MTACS",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        },
+        {
+          "unit_name": "Marine Wing Communications Squadron (Template)",
+          "echelon": "SQUADRON",
+          "type": "MWCS",
+          "magtaf_element": "ACE",
+          "approximate": true,
+          "provenance": {
+            "sources": [
+              {
+                "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+                "citation": "MCRP 1-10.1",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+              },
+              {
+                "title": "MCWP 5-10 Marine Corps Planning Process",
+                "citation": "MCWP 5-10",
+                "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+              },
+              {
+                "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+                "citation": "MARADMIN 332/25 (17 Jul 2025)",
+                "url": "https://www.marines.mil/News/Messages/"
+              }
+            ],
+            "last_reviewed": "2025-10-19"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "unit_name": "Wing HQ Squadron (Template)",
+      "echelon": "SQUADRON",
+      "type": "HQ",
+      "magtaf_element": "ACE",
+      "approximate": true,
+      "provenance": {
+        "sources": [
+          {
+            "title": "MCRP 1-10.1 Organization of the United States Marine Corps",
+            "citation": "MCRP 1-10.1",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCRP%201-10.1.pdf"
+          },
+          {
+            "title": "MCWP 5-10 Marine Corps Planning Process",
+            "citation": "MCWP 5-10",
+            "url": "https://www.marines.mil/Portals/1/Publications/MCWP%205-10.pdf"
+          },
+          {
+            "title": "MARADMIN 332/25 - Publication of FY 2025-2045 T/O&E & ASR",
+            "citation": "MARADMIN 332/25 (17 Jul 2025)",
+            "url": "https://www.marines.mil/News/Messages/"
+          }
+        ],
+        "last_reviewed": "2025-10-19"
+      },
+      "children": []
+    }
+  ]
+}

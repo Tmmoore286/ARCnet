@@ -1,0 +1,22 @@
+%% ARCnet Agent Activation (Mesh vs Hybrid)
+flowchart LR
+  M["Mission Embedding v_m"] --> S1["Compute cos(v_m, v_i) for all agents"]
+  S1 --> S2["Composite Score\nS(i)=w_sim·cos + w_chain·Chain + w_policy·Coverage + w_ready·Avail − w_load·Load"]
+  S2 --> F["Filter by thresholds\nτ_sim, τ_avail → Candidate Pool C"]
+
+  F --> SEL{Select}
+  SEL -->|Mesh| AM["Active Set (Mesh)\nMustInclude ∪ argmax_A Σ S(i) − λ Σ cos(v_i,v_j)"]
+  SEL -->|Hybrid| AH["Active Set (Hybrid)\nA_org ∪ argmax_A Σ S(i) − λ Σ cos(v_i,v_j)"]
+
+  subgraph Constraints
+    K1["Caps: K_total, K_g"]
+    K2["Coverage rules / MustInclude"]
+    K3["Diversity penalty λ"]
+  end
+
+  K1 -. applies .-> AM
+  K2 -. applies .-> AM
+  K3 -. applies .-> AM
+  K1 -. applies .-> AH
+  K2 -. applies .-> AH
+  K3 -. applies .-> AH

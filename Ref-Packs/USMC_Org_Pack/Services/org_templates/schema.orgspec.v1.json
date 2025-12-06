@@ -1,0 +1,24 @@
+{
+  "version": "orgspec.v1",
+  "unit": {
+    "name": "string",
+    "echelon": "string",
+    "uic": "string?"
+  },
+  "nodes": [
+    {
+      "id": "string",
+      "type": "unit|section|billet",
+      "name": "string",
+      "parentId": "string|null",
+      "echelon": "string|null",
+      "shop": "S1|S2|S3|S4|S6|G1|G2|G3|G4|G6|null",
+      "billet": "string|null",
+      "mos": "string|null",
+      "agentTemplates": ["string"],
+      "autonomy": "HITL|HOTL|AUTO",
+      "gateAuthority": "CO|XO|Section OIC|G-Shop OIC|null"
+    }
+  ]
+}
+

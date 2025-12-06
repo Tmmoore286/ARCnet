@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "USMC Org Template Schema",
+  "type": "object",
+  "required": [
+    "unit_name",
+    "echelon",
+    "type",
+    "children",
+    "provenance"
+  ],
+  "properties": {
+    "unit_name": {
+      "type": "string"
+    },
+    "org_uid": {
+      "type": "string",
+      "description": "Stable unit identifier (ULID/UUID). Optional for templates."
+    },
+    "echelon": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "magtaf_element": {
+      "type": "string",
+      "enum": ["GCE", "ACE", "LCE", "CE"],
+      "description": "MAGTF element for this node (if applicable)."
+    },
+    "approximate": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "sources"
+      ],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "citation",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "citation": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "last_reviewed": {
+          "type": "string"
+        }
+      }
+    },
+    "default_agents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "children": {
+      "type": "array"
+    }
+  }
+}

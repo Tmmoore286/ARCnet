@@ -1,0 +1,26 @@
+{
+  "version": "orgspec.v1",
+  "unit": { "name": "1st Battalion, 1st Marines", "echelon": "Battalion", "uic": "BN-0001" },
+  "nodes": [
+    { "id": "U1", "type": "unit", "name": "Bn HQ", "parentId": null, "echelon": "Battalion", "shop": null, "billet": null, "mos": null, "agentTemplates": [], "autonomy": "HITL", "gateAuthority": "CO" },
+
+    { "id": "S2", "type": "section", "name": "S-2 Intelligence", "parentId": "U1", "shop": "S2", "echelon": null, "billet": null, "mos": null, "agentTemplates": [], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S2-OIC", "type": "billet", "name": "S-2 OIC", "parentId": "S2", "shop": "S2", "billet": "S-2 OIC", "mos": "0202", "agentTemplates": ["intel.fusion.v1"], "autonomy": "HITL", "gateAuthority": "Section OIC" },
+    { "id": "B-S2-ANL", "type": "billet", "name": "Intel Analyst", "parentId": "S2", "shop": "S2", "billet": "Intel Analyst", "mos": "0231", "agentTemplates": ["intel.collections.v1"], "autonomy": "HITL", "gateAuthority": null },
+
+    { "id": "S3", "type": "section", "name": "S-3 Operations", "parentId": "U1", "shop": "S3", "echelon": null, "billet": null, "mos": null, "agentTemplates": [], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S3-OPS", "type": "billet", "name": "Operations Officer", "parentId": "S3", "shop": "S3", "billet": "Operations Officer", "mos": "0302", "agentTemplates": ["ops.coa.gen.v1"], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S3-FIR", "type": "billet", "name": "Fires Chief", "parentId": "S3", "shop": "S3", "billet": "Fires Chief", "mos": "0861", "agentTemplates": ["fires.deconflict.v1"], "autonomy": "HOTL", "gateAuthority": null },
+
+    { "id": "S4", "type": "section", "name": "S-4 Logistics", "parentId": "U1", "shop": "S4", "echelon": null, "billet": null, "mos": null, "agentTemplates": [], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S4-OIC", "type": "billet", "name": "Logistics Officer", "parentId": "S4", "shop": "S4", "billet": "Logistics Officer", "mos": "0402", "agentTemplates": ["sustainment.estimate.v1"], "autonomy": "HITL", "gateAuthority": null },
+    { "id": "B-S4-MNT", "type": "billet", "name": "Maintenance Mgmt", "parentId": "S4", "shop": "S4", "billet": "Maintenance Mgmt", "mos": "0411", "agentTemplates": ["maintenance.forecast.v1"], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S4-SUP", "type": "billet", "name": "Supply Admin", "parentId": "S4", "shop": "S4", "billet": "Supply Admin", "mos": "3043", "agentTemplates": ["supply.posture.v1"], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S4-DBK", "type": "billet", "name": "Embarkation", "parentId": "S4", "shop": "S4", "billet": "Embarkation", "mos": "0431", "agentTemplates": ["distro.plan.v1"], "autonomy": "HOTL", "gateAuthority": null },
+
+    { "id": "S6", "type": "section", "name": "S-6 Communications", "parentId": "U1", "shop": "S6", "echelon": null, "billet": null, "mos": null, "agentTemplates": [], "autonomy": "HOTL", "gateAuthority": null },
+    { "id": "B-S6-OIC", "type": "billet", "name": "CIS Officer", "parentId": "S6", "shop": "S6", "billet": "CIS Officer", "mos": "0602", "agentTemplates": ["comms.posture.v1"], "autonomy": "HITL", "gateAuthority": null },
+    { "id": "B-S6-NET", "type": "billet", "name": "Network Chief", "parentId": "S6", "shop": "S6", "billet": "Network Chief", "mos": "0630", "agentTemplates": ["netops.risk.v1"], "autonomy": "HOTL", "gateAuthority": null }
+  ]
+}
+

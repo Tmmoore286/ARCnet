@@ -1,0 +1,11 @@
+%% ARCnet COA Tournament (When Needed)
+flowchart LR
+  SPEC["Specialist Assessments\n(with evidence, confidence)"] --> COMP["Compiler\nresolve conflicts"]
+  COMP --> EVAL["Evaluation Agent\n(tournament needed?)"]
+  EVAL -->|Yes| SCORE["COA Scorecard\ncriteria × weights"]
+  EVAL -->|No| PLAN[Proposed Plan]
+  SCORE --> RANK[Rank COAs]
+  RANK --> GATE["Approval Gate\n(HITL default)"]
+  PLAN --> GATE
+  GATE --> OUT["Tasking / Orders"]
+  GATE -. checkpoint .-> LEDGER[("Checkpoints / Decision Ledger")]
