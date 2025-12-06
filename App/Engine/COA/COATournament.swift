@@ -242,7 +242,7 @@ public struct WargamingCOAComparator: COAComparator {
         context: MissionContext
     ) async throws -> COARanking {
         // Start with standard ranking
-        var ranking = try await baseComparator.compare(
+        let ranking = try await baseComparator.compare(
             coas: coas,
             evaluations: evaluations,
             context: context

@@ -198,6 +198,7 @@ public actor PipelineOrchestrator {
 
         // Run specialist agents in parallel
         var specialistAssessments: [SpecialistAssessment] = []
+        let currentCheckpoints = checkpoints  // Capture immutable copy for concurrent access
         await withTaskGroup(of: SpecialistAssessment?.self) { group in
             for candidate in selectedAgents {
                 guard let shop = candidate.shop else { continue }
@@ -207,7 +208,7 @@ public actor PipelineOrchestrator {
                     do {
                         let input = AgentInput(
                             missionStatement: mission.missionStatement,
-                            priorCheckpoints: checkpoints,
+                            priorCheckpoints: currentCheckpoints,
                             dataSnapshots: snapshots
                         )
                         let output = try await specialist.run(

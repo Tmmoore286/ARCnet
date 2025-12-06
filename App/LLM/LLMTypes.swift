@@ -1,7 +1,7 @@
 import Foundation
 
 public struct LLMMessage: Sendable, Codable {
-    public enum Role: String, Codable { case system, user, assistant }
+    public enum Role: String, Codable, Sendable { case system, user, assistant }
     public var role: Role
     public var content: String
     public init(role: Role, content: String) { self.role = role; self.content = content }
