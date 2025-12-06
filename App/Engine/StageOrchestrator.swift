@@ -1,4 +1,5 @@
 import Foundation
+import ARCnetDomain
 
 public protocol StageOrchestrating {
     func runMission(_ mission: MissionRun) async throws -> AsyncStream<Checkpoint>
