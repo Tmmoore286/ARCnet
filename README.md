@@ -88,6 +88,73 @@ flowchart LR
 | **Three Computational Pathways** | Org (deterministic), Mesh (similarity-gated), Hybrid (combined) modes | Flexible architecture enabling controlled experiments on routing strategies |
 | **Checkpoint-Based Auditability** | Evidence-linked reasoning with HITL gates aligned to Military Decision-Making Process phases | Explainable AI for high-stakes domains; supports trust calibration research |
 | **MOS-Scoped Doctrine Seeding** | Agents receive domain knowledge via embedding similarity to T&R tasks and METL | Novel approach to expert knowledge injection without fine-tuning |
+| **Multi-Provider LLM Routing** | Task-based model selection across providers with dual-judge COA evaluation | Cost optimization + consensus-based scoring for robust decisions |
+
+---
+
+## Multi-LLM Coordination
+
+ARCnet supports plug-and-play multi-provider LLM configuration with task-based routing and dual-judge evaluation.
+
+### Provider Configuration
+
+Users configure their own API keys and endpoints for multiple providers:
+
+```swift
+let registry = LLMProviderRegistry.dualProvider(
+    openAIKey: "sk-...",
+    anthropicKey: "sk-ant-..."
+)
+// Or custom endpoints for local/enterprise models
+```
+
+### Task-Based Model Selection
+
+Different pipeline stages route to appropriate model tiers based on task complexity:
+
+| Pipeline Stage | Model Tier | Rationale |
+|----------------|------------|-----------|
+| Scribe, Coordinator, Parsing | **Fast** (GPT-4o-mini, Haiku) | High-volume, simple tasks |
+| Specialists, Integrator, Tasking | **Standard** (GPT-4o, Sonnet) | Balanced quality/cost |
+| COA Generator, Evaluator, Judge | **Powerful** (GPT-4.5, Opus) | Complex reasoning, critical decisions |
+
+```swift
+// Router automatically selects tier based on stage
+let response = try await router.complete(
+    stage: .coaGenerator,  // → powerful tier
+    messages: messages
+)
+```
+
+### Dual-Judge COA Evaluation
+
+Critical COA scoring uses two independent LLM judges from different providers:
+
+```
+                    ┌─────────────────┐
+                    │  COA Candidate  │
+                    └────────┬────────┘
+                             │
+             ┌───────────────┼───────────────┐
+             ▼               ▼               ▼
+      ┌────────────┐  ┌────────────┐
+      │  Judge 1   │  │  Judge 2   │
+      │ (Opus 4.5) │  │ (GPT-4.5)  │
+      └─────┬──────┘  └─────┬──────┘
+            │               │
+            ▼               ▼
+      ┌───────────────────────────────┐
+      │   Consensus Score (weighted)  │
+      │   Disagreement Detection      │
+      │   → Flag for review if >0.2   │
+      └───────────────────────────────┘
+```
+
+**Benefits:**
+- **Reduced single-model bias**: Two perspectives catch blind spots
+- **Consensus confidence**: Agreement between judges increases score reliability
+- **Automatic review flagging**: High disagreement triggers human review
+- **Provider flexibility**: Mix providers based on cost/capability tradeoffs
 
 ---
 
@@ -102,6 +169,7 @@ flowchart LR
 | **Human Oversight** | Configurable HITL/HOTL/AUTO gates per stage | N/A | Optional callbacks | Optional human-in-loop |
 | **Auditability** | Checkpoint ledger with evidence citations | Attention weights (limited) | Trace logging | Conversation history |
 | **Domain Adaptation** | Configuration-driven (schema mapping) | Requires retraining/fine-tuning | Prompt engineering | Prompt engineering |
+| **Multi-Provider LLM** | Task-based routing + dual-judge evaluation | Single provider | Single provider | Single provider |
 
 ### Key Differentiators
 
@@ -532,7 +600,7 @@ The `/Research` folder contains academic documentation:
 | **ML/AI** | PyTorch, XGBoost, scikit-learn, Hugging Face Transformers |
 | **Database** | PostgreSQL 15+ with TimescaleDB extension |
 | **ETL** | pandas, SQLAlchemy, Apache Airflow (optional) |
-| **LLM** | Protocol-based abstraction (OpenAI, Anthropic, local models) |
+| **LLM** | Multi-provider routing (OpenAI, Anthropic, custom endpoints) with task-based tier selection |
 | **Vision** | OpenCV, TrOCR, YOLO |
 | **RL** | Stable Baselines3, Gymnasium |
 

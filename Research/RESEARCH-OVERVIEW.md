@@ -10,6 +10,7 @@ The system addresses a fundamental limitation in current multi-agent AI framewor
 2. Enforces organizational constraints (chain-of-command, mandatory coverage) as first-class optimization terms
 3. Penalizes redundant expertise to yield compact, diverse teams
 4. Maintains full auditability through checkpoint-based reasoning with evidence citations
+5. Leverages multi-provider LLM coordination with task-based routing and dual-judge consensus scoring
 
 Preliminary analysis suggests 40-60% reduction in LLM calls compared to fixed full-staff activation while improving contextual relevance of agent outputs.
 
@@ -34,6 +35,8 @@ Preliminary analysis suggests 40-60% reduction in LLM calls compared to fixed fu
 
 **RQ5**: What autonomy configurations (HITL/HOTL/AUTO) yield optimal human-AI team performance across different decision complexity levels?
 
+**RQ6**: Does dual-judge COA evaluation (using two LLM providers) produce more robust scoring than single-judge evaluation, and what disagreement thresholds effectively identify cases requiring human review?
+
 ---
 
 ## Hypotheses
@@ -45,6 +48,8 @@ Preliminary analysis suggests 40-60% reduction in LLM calls compared to fixed fu
 **H3**: Increasing diversity penalty (λ) will improve decision quality up to a threshold, beyond which coverage gaps degrade performance.
 
 **H4**: Semantic doctrine seeding will produce more contextually relevant specialist outputs than generic role-based prompting.
+
+**H5**: Dual-judge COA evaluation will achieve higher inter-rater reliability with human expert scores than single-judge evaluation, particularly for edge cases where model biases diverge.
 
 ---
 
@@ -103,7 +108,7 @@ The graduated autonomy model (HITL → HOTL → AUTO) builds on adjustable auton
 ### Explainable AI
 Evidence-linked reasoning with citation-level provenance extends XAI approaches (Gunning et al., 2019) to multi-agent workflows where transparency spans multiple reasoning steps.
 
-See [related-work/](related-work/) for detailed literature positioning.
+See [LITERATURE.md](LITERATURE.md) for detailed literature positioning.
 
 ---
 
@@ -115,6 +120,7 @@ See [related-work/](related-work/) for detailed literature positioning.
 | Agent Selection | ✅ Complete | Embedding-based routing, diversity penalty |
 | COA Tournament | ✅ Complete | Generation, evaluation, ranking |
 | Gate Enforcement | ✅ Complete | HITL/HOTL/AUTO with checkpoints |
+| Multi-LLM Coordination | ✅ Complete | Task-based routing, dual-judge COA evaluation |
 | ML Forecasting | 🔄 In Progress | Predictive maintenance, budget models |
 | Empirical Evaluation | 📋 Planned | Golden scenario corpus, ablation studies |
 | Paper Draft | 📋 Planned | Target: conference submission |
